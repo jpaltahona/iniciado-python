@@ -27,5 +27,13 @@ print(colors)
 #REmover elementos
 
 colors.remove("blue")
-
 print(colors)
+
+#Usar clear para eliminar todos los datos de una list
+#colors.clear()
+#print(colors)
+
+colors.sort( reverse=True )
+print(colors)
+
+
